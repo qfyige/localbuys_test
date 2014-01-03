@@ -1,0 +1,830 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, /*sub, sup,*/
+tt, var,
+b, u, i, center,
+dl, dt, dd, /*ol, ul, li,*/
+fieldset, form, label, legend/*,
+table, caption, tbody, tfoot, thead, tr, th, td*/           {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    color: #1e1e1e;
+    font-size: 100%;
+    font-family: Arial, Arial Black, Verdana, Comic Sans MS, Courier New, Georgia, Impact, Times New Roman, Trebuchet MS, sans-serif;
+    height: 100%;
+    background: #363636;
+}
+
+:focus {
+    outline: 0;
+}
+
+.second {
+    position: relative;
+    width: 100%;
+    min-width: 120px;
+    min-height: 270px;
+    height: 100%;
+    overflow: hidden;
+}
+
+/* Start Login_page */
+
+.login button {
+    border: none;
+}
+
+.login .flexible_image_logo {
+    max-width: 100%;
+    width: 86.562%;
+    margin-top: 4.7%;
+    margin-left: 6.7%;
+}
+
+.login h1 {
+    margin-top: 3%;
+    color: #00dda1;
+    font-size: 170%;
+    padding: 2% 0;
+    font-weight: lighter;
+    text-align: center;
+
+}
+
+.login .input_login {
+    margin-top: 10.71%;
+    margin-left: 2.968%;
+    margin-right: 2.968%;
+    padding-left: 2%;
+    width: 88%;
+    height: 9%;
+    font-size: 2em;
+    font-weight: lighter;
+
+    background-color: #ffffff;
+    border-radius: 12px;
+    border: 2px solid #00dda1;
+
+}
+
+.login .input_password {
+    margin-top: 5.683%;
+    margin-left: 2.968%;
+    margin-right: 2.968%;
+    padding-left: 2%;
+    width: 88%;
+    height: 9%;
+    font-size: 2em;
+    font-weight: lighter;
+
+    background-color: #ffffff;
+    border-radius: 12px;
+    border: 2px solid #00dda1;
+
+}
+
+.login .log_in {
+
+    margin-top: 8.524%;
+    margin-left: 22.812%;
+    width: 53.125%;
+    height: 100%;
+    background-color: #fe4800;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+
+}
+
+.login .button_login {
+    width: 53.125%;
+    height: 9%;
+    padding: 2% 4%;
+    background: #fe4800;
+    position: relative;
+    margin-top: 8.524%;
+    margin-left: 22.812%;
+    background: #fe4800;
+    border-radius: 10px;
+
+    /*TYPE*/
+
+    color: white;
+    font-size: 2em;
+    font-weight: lighter;
+    text-align: center;
+
+}
+
+.login .button_signup {
+    margin-top: 8.524%;
+    margin-left: 22.812%;
+    height: 9.180%;
+    width: 53.125%;
+    background: #00dda1;
+    border-radius: 10px;
+
+    color: white;
+    font-size: 2em;
+    font-weight: lighter;
+    text-align: center;
+
+}
+
+/*End login_page*/
+
+/*Start SignUP_page*/
+.singup .flexible_image_logo {
+    max-width: 100%;
+    width: 86.562%;
+    margin-top: 4.7%;
+    margin-left: 6.7%;
+}
+
+.singup h1 {
+    margin-top: 3%;
+    color: #00dda1;
+    font-size: 170%;
+    padding: 2% 0;
+    font-weight: lighter;
+    text-align: center;
+
+}
+
+.singup .input_login {
+    margin-top: 4.6%;
+    margin-left: 2.968%;
+    margin-right: 2.968%;
+    padding-left: 2%;
+    width: 88%;
+    height: 9%;
+    font-size: 2em;
+    font-weight: lighter;
+
+    background-color: #ffffff;
+    border-radius: 12px;
+    border: 2px solid #00dda1;
+
+}
+
+.singup .button_accept {
+    margin-top: 8.524%;
+    margin-left: 22.812%;
+    height: 9.180%;
+    width: 53.125%;
+    background: #fe4800;
+    border-radius: 10px;
+    border: none;
+    /*TYPE*/
+    display: block;
+    color: white;
+    font: 2.5em Helvetica, Verdana, sans-serif;
+    text-decoration: none;
+    text-align: center;
+}
+
+/*End SignUP_page*/
+
+/*Start firstScreen*/
+.first_screen .flexible_image_logo {
+    max-width: 100%;
+    width: 86.562%;
+    margin-top: 4.7%;
+    margin-left: 6.7%;
+}
+
+.first_screen h1 {
+    margin-top: 3%;
+    color: #00dda1;
+    font-size: 170%;
+    padding: 2% 0;
+    font-weight: lighter;
+    text-align: center;
+
+}
+
+.first_screen .button_search {
+    background: url('../image/ic_location.png') no-repeat center #ffffff;
+    background-size: 67%;
+    margin-top: 8.7%;
+    border-radius: 12px;
+    border: 2px solid #fe6a30;
+    height: 10%;
+    width: 20.312%;
+    margin-left: 3.125%;
+    float: left;
+}
+
+.first_screen .input {
+    margin-top: 8.7%;
+    background: url('../image/ic_search.png') no-repeat right #ffffff;
+    background-size: 20%;
+    width: 60.312%;
+    height: 9.13%;
+    font-size: 2em;
+    font-weight: lighter;
+    padding-right: 10px;
+    border-radius: 12px;
+    border: 2px solid #00dda1;
+    margin-left: 3.125%;
+    float: left;
+}
+
+.first_screen .button_find {
+    background: url('../image/ic_find_buys.png') no-repeat 50% 30% #fe4800;
+    background-size: 50%;
+    margin-top: 9.45%;
+    width: 44.21%;
+    padding-top: 27.8%;
+    padding-bottom: 2%;
+    /*height: 27.8%;*/
+    border-color: #fe4800;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    float: left;
+    font-size: 2em;
+    color: #ffffff;
+}
+
+.first_screen .button_add {
+    background: url('../image/ic_add_buys.png') no-repeat 50% 30% #00dda1;
+    background-size: 50%;
+    margin-top: 9.15%;
+    width: 44.21%;
+    padding-top: 27.8%;
+    padding-bottom: 2%;
+    /*height: 27.8%;*/
+    font-size: 2em;
+    border-color: #00dda1;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    color: #ffffff;
+    float: right;
+
+}
+
+.first_screen .text_button {
+
+    padding-top: 88%;
+    padding-bottom: 2%;
+    text-align: center;
+}
+
+.first_screen .clear {
+
+    float: none;
+}
+
+.first_screen .button_settings {
+    background: #5d5d5d url(../image/ic_settings.png) 10% 50% no-repeat;
+    background-size: 20%;
+    width: 61.875%;
+    height: 13.58%;
+    border-radius: 20px 20px 0 0;
+    /*border-color: #5d5d5d;*/
+    bottom: 0px;
+    /*margin: 0 -69%;*/
+    padding: 3% 5%;
+    border: none;
+    font-size: 2em;
+    color: #aeaeae;
+    position: absolute;
+    left: 20%;
+}
+
+.add_buy .strip {
+
+    float: right;
+    background-color: #fe4800;
+    width: 100%;
+    height: 17.06%;
+
+}
+
+.add_buy #back {
+    margin-top: 1%;
+    background-color: #fe4800;
+    width: 20%;
+    height: 25px;
+    color: white;
+    float: left;
+    position: absolute;
+    /*top:15px;*/
+    /*bottom: 15:px;*/
+}
+
+.add_buy h1 {
+    background-color: #fe4800;
+    width: 100%;
+    height: 5.07%;
+    color: #ffffff;
+    text-align: center;
+    padding: 2% 0;
+    font-weight: 400;
+    float: right;
+    font-size: 2em;
+
+}
+
+.add_buy .target_input {
+
+    margin: 3% 4% 1% 3%;
+    padding: 2% 5% 2% 1%;
+    background: url('../image/ic_search.png') no-repeat right #ffffff;
+    background-size: 14%;
+    width: 90%;
+    height: 9.13%;
+    font-size: 2em;
+    font-weight: lighter;
+    border-radius: 8px;
+    border: 2px solid #00dda1;
+
+}
+
+.add_buy input[type=text] {
+    width: 90%;
+    height: 9%;
+    margin: 3% 4% 1% 3%;
+    padding: 2% 2% 2% 1%;
+    border-radius: 8px;
+}
+
+.description_input {
+
+    margin: 3% 4% 1% 3%;
+    padding: 2% 5% 2% 1%;
+    width: 90%;
+    height: 9.13%;
+    font-size: 2em;
+    font-weight: lighter;
+    border-radius: 8px;
+    border: 2px solid #00dda1;
+
+}
+
+.add_buy .target_info {
+    width: 91.5%;
+    background: darkgrey;
+    color: #ffffff;
+    padding: 1%;
+    margin: 0 3%;
+}
+
+.add_buy textarea {
+    width: 90%;
+    height: 35%;
+    margin: 3% 4% 1% 3%;
+    padding: 2% 2% 2% 1%;
+    border: 1px solid #00dda1;
+    border-radius: 8px;
+
+}
+
+.add_buy .select {
+    background: transparent;
+    line-height: 1;
+    margin: 3% 4% 1% 3%;
+    padding: 2% 5% 2% 1%;
+    width: 90%;
+    height: 9.13%;
+    font-size: 2em;
+    font-weight: lighter;
+
+    -webkit-appearance: none;
+}
+
+.add_buy .styled-select {
+    width: 90%;
+    height: 9.13%;
+    overflow: hidden;
+    background: url('../image/ic_DC.png') no-repeat 98% #FFF;
+    background-size: 16%;
+    border-radius: 8px;
+    border: 2px solid #00dda1;
+    margin-left: 3%;
+    margin-top: 3%;
+
+}
+
+.add_buy .expires {
+    margin-top: 6.34%;
+    margin-left: 3%;
+    color: #b7b7b7;
+    font-size: 2em;
+    float: left;
+}
+
+.add_buy .expires_date {
+    margin: 3% 4% 1% 3%;
+    padding: 2% 5% 2% 1%;
+    width: 43%;
+    height: 9.13%;
+    font-size: 2em;
+    font-weight: lighter;
+    border-radius: 8px;
+    border: 2px solid #00dda1;
+    text-align: center;
+    float: left;
+
+}
+
+.add_buy img {
+    /*background: url('../image/ic_calendar.png') no-repeat center ;*/
+    width: 10.5%;
+    /*height: 10.9%;*/
+    margin-top: 4%;
+    float: left;
+
+}
+
+.add_buy #myImage {
+    height: 100px;
+    width: 100px;
+}
+
+.add_buy hr {
+    width: 100%;
+    color: #fe4800;
+}
+
+.add_buy #add_photo {
+    background: url('../image/ic_photo_white.png') no-repeat 50% 20% #b8b8b8;
+    background-size: 50%;
+    margin-top: 4%;
+    margin-left: 34.37%;
+    margin-bottom: 4%;
+    width: 31.09%;
+    padding-top: 14.71%;
+    padding-bottom: 2%;
+    /*height: 27.8%;*/
+    font-size: 1em;
+    border-color: #b8b8b8;
+    border-radius: 8px;
+    color: #ffffff;
+}
+
+.add_buy .add {
+    margin-top: 4%;
+    margin-left: 3%;
+    width: 43.75%;
+    height: 14.13%;
+    border-radius: 8px;
+    background-color: #fe4800;
+    color: white;
+    font-size: 2em;
+    border-color: #fe4800;
+
+}
+
+.add_buy #cancel {
+    margin-left: 3%;
+    margin-top: 4%;
+    width: 43.75%;
+    height: 14.13%;
+    border-radius: 8px;
+    background-color: #00dda1;
+    color: white;
+    font-size: 2em;
+    border-color: #00dda1;
+}
+
+.popup1 {
+    background-color: white;
+    border-radius: 8px;
+    border-color: #00dda1;
+    border-width: 2px;
+    width: 75%;
+    height: 85%;
+    margin-left: 10%;
+    font-size: 150%;
+}
+
+.popup1 hr {
+
+    background-color: #00dda1;
+    color: #00dda1;
+    height: 1px;
+}
+
+.popup1 h1 {
+    text-align: center;
+    font-size: 175%;
+    margin-top: 10%;
+}
+
+.popup1#shopping p {
+    text-align: center;
+}
+
+.popup1 #shopping2 p {
+    text-align: left;
+
+}
+
+.popup1 #shopping p {
+
+}
+
+.busnesslocation .strip {
+    float: right;
+    background-color: #fe4800;
+    width: 100%;
+    height: 10.06%;
+}
+
+.busnesslocation #back {
+    margin-top: 1.5%;
+    background-color: #fe4800;
+    width: 15%;
+    height: 2%;
+    color: white;
+    float: left;
+    position: absolute;
+
+}
+
+.busnesslocation h1 {
+    background-color: #fe4800;
+    width: 100%;
+    height: 5.07%;
+    color: #ffffff;
+    text-align: center;
+    padding: 2% 0;
+    font-weight: 400;
+    float: right;
+    font-size: 2em;
+}
+
+.busnesslocation .button_add {
+    background: url('../image/ic_add.png') no-repeat center #ffffff;
+    background-size: 67%;
+    margin-top: 5.7%;
+    border-radius: 12px;
+    border: 2px solid #00dda1;
+    height: 40px;
+    width: 20.312%;
+    margin-left: 3.125%;
+    float: left;
+    margin-bottom: 2%;
+
+}
+
+.busnesslocation .input {
+    margin-top: 5.7%;
+    width: 60.312%;
+    height: 9.13%;
+    font-size: 2em;
+    font-weight: lighter;
+    padding-right: 10px;
+    border-radius: 12px;
+    border: 2px solid #00dda1;
+    margin-left: 3.125%;
+    float: left;
+    margin-bottom: 2%;
+}
+
+.busnesslocation p {
+    font-size: 1em;
+    color: #ffffff;
+    padding-left: 5%;
+
+}
+
+.busnesslocation .hr {
+
+    color: #04d29a;
+
+}
+
+.busnesslocation .mi {
+    color: #04d29a;
+    font-size: 2em;
+    margin-left: 75%;
+    bottom: 20%;
+}
+
+.busnesslocation .red {
+    border: none;
+    background-color: #fe4800;
+    height: 2px;
+}
+
+.busnesslocation .show_more {
+    margin-top: 4%;
+    margin-left: 25%;
+    width: 43.75%;
+    height: 14.13%;
+    border-radius: 8px;
+    background-color: #fe4800;
+    color: white;
+    font-size: 2em;
+    border-color: #fe4800;
+}
+
+.add_business .strip {
+
+    float: right;
+    background-color: #fe4800;
+    width: 100%;
+    height: 17.06%;
+
+}
+
+.add_business #back {
+    /*margin-top: 1%;*/
+    background-color: #fe4800;
+    width: 20%;
+    height: 28px;
+    color: white;
+    float: left;
+    position: absolute;
+    /*top:15px;*/
+    /*bottom: 15:px;*/
+}
+
+.add_business h1 {
+    background-color: #fe4800;
+    width: 100%;
+    height: 5.07%;
+    color: #ffffff;
+    text-align: center;
+    padding: 2% 0;
+    font-weight: 400;
+    float: right;
+    font-size: 2em;
+}
+
+.add_business .name {
+    margin: 3% 4% 1% 3%;
+    padding: 2% 5% 2% 1%;
+
+    height: 9%;
+    width: 90%;
+    font-size: 2em;
+    font-weight: lighter;
+    border-radius: 8px;
+    border: 2px solid #00dda1;
+
+}
+
+.add_business .phone {
+    margin: 3% 4% 1% 3%;
+    padding: 2% 5% 2% 1%;
+    height: 9%;
+    width: 90%;
+    font-size: 2em;
+    font-weight: lighter;
+    border-radius: 8px;
+    border: 2px solid #00dda1;
+}
+
+.add_business .address {
+    margin: 3% 4% 1% 3%;
+    padding: 2% 5% 2% 1%;
+    height: 9%;
+    width: 90%;
+    font-size: 2em;
+    font-weight: lighter;
+    border-radius: 8px;
+    border: 2px solid #00dda1;
+}
+
+.add_business .city {
+    margin: 3% 4% 1% 3%;
+    padding: 2% 5% 2% 1%;
+    height: 9%;
+    width: 90%;
+    font-size: 2em;
+    font-weight: lighter;
+    border-radius: 8px;
+    border: 2px solid #00dda1;
+}
+
+.add_business input[type=text] {
+
+    margin: 3% 4% 1% 3%;
+    padding: 2% 2% 2% 1%;
+    border-radius: 8px;
+}
+
+.add_business select {
+    line-height: 1;
+    margin: 3% 4% 1% 3%;
+    padding: 2% 5% 2% 1%;
+    width: 20%;
+    height: 9.13%;
+    font-size: 2em;
+    font-weight: lighter;
+    border-radius: 8px;
+    border: 2px solid #00dda1;
+    overflow: hidden;
+    background: url('../image/ic_DC.png') no-repeat right #ffffff;
+    background-size: 25%;
+    -webkit-appearance: none;
+}
+
+.add_business .zip {
+    margin: 3% 4% 1% 3%;
+    padding: 2% 5% 2% 1%;
+    height: 9%;
+    width: 55%;
+    font-size: 2em;
+    font-weight: lighter;
+    border-radius: 8px;
+    border: 2px solid #00dda1;
+}
+
+.add_business hr {
+    border: none;
+    background-color: #fe4800;
+    height: 2px;
+
+}
+
+.add_business .autolocation {
+    background: url('../image/ic_location.png') no-repeat 8% 50% #ffffff;
+    background-size: 14%;
+    margin: 3% 4% 1% 3%;
+    width: 90%;
+    height: 50px;
+    background-color: #ffffff;
+    border: 2px solid #00dda1;
+    padding-left: 4%;
+    border-radius: 8px;
+    font-size: 2em;
+
+}
+
+.add_business #add {
+    margin-top: 4%;
+    margin-left: 3%;
+    width: 43.75%;
+    height: 50px;
+    border-radius: 8px;
+    background-color: #fe4800;
+    color: white;
+    font-size: 2em;
+    border-color: #fe4800;
+
+}
+
+.add_business #cancel {
+    margin-left: 3%;
+    margin-top: 4%;
+    width: 43.75%;
+    height: 50px;
+    border-radius: 8px;
+    background-color: #00dda1;
+    color: white;
+    font-size: 2em;
+    border-color: #00dda1;
+}
+
+.add_business #map {
+    height: 300px;
+    width: 300px;
+
+}
+.settings .logout{
+    height: 150px;
+    width: 60%;
+    text-align: center;
+    margin-left: 20%;
+    margin-top: 150px;
+}
+
+@media screen and (max-width: 480px) {
+    html {
+        font-size: 60%;
+    }
+
+    .first_screen .input {
+        font-size: 1em;
+    }
+
+    .first_screen .button_find {
+        /*margin-top: 3.45%;*/
+    }
+
+    .first_screen .button_add {
+        /*margin-top: 3.45%;*/
+    }
+
+    .busnesslocation p {
+        font-size: 1.5em;
+    }
+
+}

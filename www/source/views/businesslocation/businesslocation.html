@@ -1,0 +1,30 @@
+<div class="busnesslocation .second scroll-view-body">
+    <div class="header">
+        <button class="back_class" id="back"></button>
+        <p>Select Categories</p>
+    </div>
+
+    <input class="input" placeholder="Type search word here">
+    <button type="button" class="button_add"></button>
+    <hr color="#04d29a">
+    {{# for (var i = 0; i < model.data.array.length; i++) { }}
+    <div class="add_buy" data-id="342d19fe-5ce1-4c47-b02b-4808762e57bb">
+
+        <p>{{ model.data.array[i].name }}</p>
+
+        <p>{{ model.data.array[i].address }}</p>
+
+        <p>{{ model.data.array[i].phone }}</p>
+
+
+        <p class="mi">{{ model.data.array[i].distance }}mi</p>
+    </div>
+    <hr color="#04d29a">
+
+    {{# } }}
+    <hr class="red">
+    <button class="show_more">Show more</button>
+</div>
+
+
+</div>

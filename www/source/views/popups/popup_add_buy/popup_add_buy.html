@@ -1,0 +1,17 @@
+<div class="popup1 scroll-view-body">
+    <h1>Select Category </h1>
+
+    <div>
+        {{# _.each(RAD.categories, function (item, index) { }}
+        <div class="category" data-id="{{ item.id }}" data-name="{{ item.name }}">
+
+            <p><img src="source/image/{{ item.icon }}"></p>
+
+            <p>{{ item.name }}</p>
+        </div>
+        <hr>
+        {{# }); }}
+
+
+    </div>
+</div>
